@@ -5,7 +5,7 @@
 [![Dependencies][deps-badge]][deps-href]
 
 
-Converts [CalTopo](http://caltopo.com) GPX to [GeoJSON](http://geojson.org) objects.
+Converts [CalTopo](http://caltopo.com) JSON to [GeoJSON](http://geojson.org) objects.
 
 
 [version-badge]: https://img.shields.io/npm/v/caltopo-to-geojson.svg?style=flat-square
