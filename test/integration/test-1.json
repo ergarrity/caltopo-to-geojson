@@ -14,7 +14,7 @@
         "name": "Trailhead 1",
         "folder": "Trailheads",
         "folderId": "0",
-        "comments": ""
+        "comments": "Comment with <b>HTML</b> in it!"
       }
     },
     {
@@ -56,7 +56,7 @@
         "name": "Trail 1",
         "folder": "Trails",
         "folderId": "2",
-        "comments": ""
+        "comments": "Some comment..."
       }
     }
   ]
