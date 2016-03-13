@@ -8,7 +8,7 @@
 A simple converter for [CalTopo](http://caltopo.com) to [GeoJSON](http://geojson.org) format.
 
 
-[version-badge]: https://img.shields.io/npm/v/caltopo-to-geojson.svg
+[version-badge]: https://img.shields.io/npm/v/caltopo-to-geojson.svg?style=flat-square
 [version-href]: https://www.npmjs.com/package/caltopo-to-geojson
 
 [build-badge]: https://img.shields.io/travis/scott113341/caltopo-to-geojson.svg?style=flat-square
