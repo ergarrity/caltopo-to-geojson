@@ -1,0 +1,63 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.01609339935067,
+          40.89255315925912
+        ]
+      },
+      "properties": {
+        "name": "Lake 1",
+        "folder": "Water",
+        "folderId": 1,
+        "comments": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.02409587050437,
+          40.88740538581878
+        ]
+      },
+      "properties": {
+        "name": "Trailhead 1",
+        "folder": "Trailheads",
+        "folderId": 0,
+        "comments": "Comment with <b>HTML</b> in it!"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -123.02409768104553,
+            40.88740648211728
+          ],
+          [
+            -123.02412986755371,
+            40.88786475043473
+          ],
+          [
+            -123.02364706993103,
+            40.88808780023742
+          ]
+        ]
+      },
+      "properties": {
+        "name": "Trail 1",
+        "folder": "Trails",
+        "folderId": 2,
+        "comments": "Some comment..."
+      }
+    }
+  ]
+}

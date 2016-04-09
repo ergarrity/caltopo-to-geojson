@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><gpx xmlns="http://www.topografix.com/GPX/1/1" version="1.1" creator="CALTOPO">
+  <metadata>
+    <desc>Folder=2%3DTrails%261%3DWater%260%3DTrailheads</desc>
+  </metadata>
+  <wpt lat="40.88740538581878" lon="-123.02409587050437">
+    <name>Trailhead 1</name>
+    <cmt>Comment with &lt;b&gt;HTML&lt;/b&gt; in it!</cmt>
+    <desc><![CDATA[comments=Comment+with+%3Cb%3EHTML%3C%2Fb%3E+in+it%21&url=%23FF0000&folderId=0]]></desc>
+  </wpt>
+  <wpt lat="40.89255315925912" lon="-123.01609339935067">
+    <name>Lake 1</name>
+    <cmt/>
+    <desc><![CDATA[comments=&url=%23FF0000&folderId=1]]></desc>
+  </wpt>
+  <rte>
+    <name>Trail 1</name>
+    <cmt>Some comment...</cmt>
+    <desc><![CDATA[weight=2.0&pattern=solid&color=%23FF0000&fill=10.0&comments=Some+comment...&folderId=2]]></desc>
+    <rtept lat="40.88740648211728" lon="-123.02409768104553">
+      <name>1</name>
+    </rtept>
+    <rtept lat="40.88786475043473" lon="-123.02412986755371">
+      <name>2</name>
+    </rtept>
+    <rtept lat="40.88808780023742" lon="-123.02364706993103">
+      <name>3</name>
+    </rtept>
+  </rte>
+</gpx>

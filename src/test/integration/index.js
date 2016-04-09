@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import test from 'tape';
 
-import importer from '../../lib';
+import importer from '../../index.js';
 
 import input1 from './test-1.json';
 import expected1 from './test-1-expected.json';
