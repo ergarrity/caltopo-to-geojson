@@ -1,2 +1,1 @@
-import unit from './unit';
-import integration from './integration';
+import integration from './integration/index.js';

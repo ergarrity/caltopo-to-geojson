@@ -1,9 +1,9 @@
 import * as extract from './extract';
 
 
-export default function importer(calJson) {
-  const markers = extract.extractMarkers(calJson);
-  const routes = extract.extractRoutes(calJson);
+export default function convert(caltopoJson) {
+  const markers = extract.extractMarkers(caltopoJson);
+  const routes = extract.extractRoutes(caltopoJson);
 
   const output = {
     type: 'FeatureCollection',
