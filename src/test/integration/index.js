@@ -4,7 +4,7 @@ import test from 'tape';
 
 import convert from '../../index.js';
 
-import input1 from './test-1.json';
+import input1 from './test-1-input.json';
 import expected1 from './test-1-expected.json';
 
 

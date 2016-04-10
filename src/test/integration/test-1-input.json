@@ -1,0 +1,93 @@
+{
+  "timestamp": "1460251822093",
+  "Shape": [
+    {
+      "color": "#FF0000",
+      "comments": "Some comment...",
+      "fill": 10,
+      "folderId": 2,
+      "id": 0,
+      "label": "Trail 1",
+      "lastUpdated": 1457850921000,
+      "pattern": "solid",
+      "updated": "1457850921000",
+      "way": {
+        "coordinates": [
+          [
+            40.88740648211728,
+            -123.02409768104553
+          ],
+          [
+            40.88786475043473,
+            -123.02412986755371
+          ],
+          [
+            40.88808780023742,
+            -123.02364706993103
+          ]
+        ],
+        "id": 21798749,
+        "polygon": false,
+        "sourceDistance": 0,
+        "type": "ROUTE"
+      },
+      "weight": 2
+    }
+  ],
+  "Folder": [
+    {
+      "id": 0,
+      "label": "Trailheads",
+      "updated": "1457850800000"
+    },
+    {
+      "id": 1,
+      "label": "Water",
+      "updated": "1457850332000"
+    },
+    {
+      "id": 2,
+      "label": "Trails",
+      "updated": "1457850921000"
+    }
+  ],
+  "CustomLayer": [],
+  "LocatorGroup": [],
+  "Locator": [],
+  "MapConfig": {
+    "base": "t",
+    "layers": [],
+    "opacity": [],
+    "alphas": null
+  },
+  "ConfiguredLayer": [],
+  "GeoRef": [],
+  "Marker": [
+    {
+      "comments": "",
+      "folderId": 1,
+      "id": 1,
+      "label": "Lake 1",
+      "position": {
+        "id": 21798756,
+        "lat": 40.89255315925912,
+        "lng": -123.01609339935067
+      },
+      "updated": "1457850332000",
+      "url": "#FF0000"
+    },
+    {
+      "comments": "Comment with <b>HTML<\/b> in it!",
+      "folderId": 0,
+      "id": 0,
+      "label": "Trailhead 1",
+      "position": {
+        "id": 21798754,
+        "lat": 40.88740538581878,
+        "lng": -123.02409587050437
+      },
+      "updated": "1457850800000",
+      "url": "#FF0000"
+    }
+  ]
+}

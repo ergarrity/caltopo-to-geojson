@@ -4,12 +4,12 @@ const LINE_STRING = 'LineString';
 
 
 export function extractFolders(caltopoJson) {
-  return caltopoJson.state.Folder;
+  return caltopoJson.Folder;
 }
 
 
 export function extractMarkers(caltopoJson, folders=extractFolders(caltopoJson)) {
-  return caltopoJson.state.Marker
+  return caltopoJson.Marker
     .map(marker => ({
         type: FEATURE,
         geometry: {
@@ -31,7 +31,7 @@ export function extractRoutes(caltopoJson, folders=extractFolders(caltopoJson)) 
     return [ lon, lat ];
   }
 
-  return caltopoJson.state.Shape
+  return caltopoJson.Shape
     .filter(shape => shape.way.type === 'ROUTE')
     .map(shape => ({
       type: FEATURE,
