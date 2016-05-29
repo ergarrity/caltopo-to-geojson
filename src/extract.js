@@ -3,12 +3,12 @@ const POINT = 'Point';
 const LINE_STRING = 'LineString';
 
 
-export function extractFolders(caltopoJson) {
+function extractFolders(caltopoJson) {
   return caltopoJson.Folder;
 }
 
 
-export function extractMarkers(caltopoJson, folders=extractFolders(caltopoJson)) {
+function extractMarkers(caltopoJson, folders=extractFolders(caltopoJson)) {
   return caltopoJson.Marker
     .map(marker => ({
         type: FEATURE,
@@ -26,7 +26,7 @@ export function extractMarkers(caltopoJson, folders=extractFolders(caltopoJson))
 }
 
 
-export function extractRoutes(caltopoJson, folders=extractFolders(caltopoJson)) {
+function extractRoutes(caltopoJson, folders=extractFolders(caltopoJson)) {
   function coordinates([lat, lon]) {
     return [ lon, lat ];
   }
@@ -47,3 +47,9 @@ export function extractRoutes(caltopoJson, folders=extractFolders(caltopoJson)) 
       },
     }));
 }
+
+module.exports = {
+  extractFolders,
+  extractMarkers,
+  extractRoutes,
+};

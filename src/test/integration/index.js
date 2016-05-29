@@ -1,11 +1,9 @@
-import fs from 'fs';
-import path from 'path';
-import test from 'tape';
+const test = require('tape');
 
-import convert from '../../index.js';
+const convert = require('../../index.js');
 
-import input1 from './test-1-input.json';
-import expected1 from './test-1-expected.json';
+const input1 = require('./test-1-input.json');
+const expected1 = require('./test-1-expected.json');
 
 
 const tests = [

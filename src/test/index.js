@@ -1,1 +1,1 @@
-import integration from './integration/index.js';
+require('./integration/index.js');

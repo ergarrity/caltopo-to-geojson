@@ -1,7 +1,7 @@
-import * as extract from './extract';
+const extract = require('./extract');
 
 
-export default function convert(caltopoJson) {
+module.exports = function convert(caltopoJson) {
   const markers = extract.extractMarkers(caltopoJson);
   const routes = extract.extractRoutes(caltopoJson);
 
@@ -10,4 +10,4 @@ export default function convert(caltopoJson) {
     features: [].concat(markers, routes),
   };
   return output;
-}
+};
