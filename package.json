@@ -1,6 +1,6 @@
 {
   "name": "caltopo-to-geojson",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Converts CalTopo JSON to GeoJSON objects.",
   "author": "Scott Hardy",
   "license": "MIT",
