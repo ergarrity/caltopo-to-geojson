@@ -7,15 +7,18 @@
   "repository": "git@github.com:scott113341/caltopo-to-geojson.git",
   "homepage": "https://github.com/scott113341/caltopo-to-geojson",
   "bugs": "https://github.com/scott113341/caltopo-to-geojson/issues",
+  "keywords": [
+    "caltopo",
+    "geojson",
+    "convert"
+  ],
   "main": "lib/index.js",
   "files": [
     "lib/"
   ],
   "scripts": {
+    "build": "npm run clean && babel --copy-files --out-dir lib/ src/",
     "clean": "shx rm -rf lib/ && shx mkdir lib/",
-    "prebuild": "npm run clean",
-    "build": "babel --copy-files --out-dir lib/ src/",
-    "preversion": "npm run test",
     "test": "npm run build && node lib/test/index.js"
   },
   "devDependencies": {
