@@ -16,8 +16,8 @@ function extractMarkers (caltopoJson, folders = extractFolders(caltopoJson)) {
       },
       properties: {
         name: marker.label,
-        folder: folders[marker.folderId].label,
-        folderId: marker.folderId,
+        folder: folders[marker.folderId] !== undefined ? folders[marker.folderId].label : null,
+        folderId: marker.folderId !== undefined ? marker.folderId : null,
         comments: marker.comments
       }
     }));
@@ -38,8 +38,8 @@ function extractRoutes (caltopoJson, folders = extractFolders(caltopoJson)) {
       },
       properties: {
         name: shape.label,
-        folder: folders[shape.folderId].label,
-        folderId: shape.folderId,
+        folder: folders[shape.folderId] !== undefined ? folders[shape.folderId].label : null,
+        folderId: shape.folderId !== undefined ? shape.folderId : null,
         comments: shape.comments
       }
     }));
