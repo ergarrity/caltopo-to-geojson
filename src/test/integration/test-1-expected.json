@@ -14,7 +14,8 @@
         "name": "Lake 1",
         "folder": "Water",
         "folderId": 1,
-        "comments": ""
+        "comments": "",
+        "iconUrl": "https://caltopo.com/resource/imagery/icon.png?cfg=point%2CFF0000"
       }
     },
     {
@@ -30,7 +31,8 @@
         "name": "Trailhead 1",
         "folder": "Trailheads",
         "folderId": 0,
-        "comments": "Comment with <b>HTML</b> in it!"
+        "comments": "Comment with <b>HTML</b> in it!",
+        "iconUrl": "https://caltopo.com/resource/imagery/icon.png?cfg=point%2CFF0000"
       }
     },
     {

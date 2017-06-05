@@ -1,3 +1,5 @@
+const util = require('./util.js');
+
 const FEATURE = 'Feature';
 const POINT = 'Point';
 const LINE_STRING = 'LineString';
@@ -18,7 +20,8 @@ function extractMarkers (caltopoJson, folders = extractFolders(caltopoJson)) {
         name: marker.label,
         folder: folders[marker.folderId] !== undefined ? folders[marker.folderId].label : null,
         folderId: marker.folderId !== undefined ? marker.folderId : null,
-        comments: marker.comments
+        comments: marker.comments,
+        iconUrl: util.iconUrl(marker.url)
       }
     }));
 }
