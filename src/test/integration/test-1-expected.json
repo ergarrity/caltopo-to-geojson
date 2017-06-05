@@ -56,7 +56,8 @@
         "name": "Trail 1",
         "folder": "Trails",
         "folderId": 2,
-        "comments": "Some comment..."
+        "comments": "Some comment...",
+        "color": "#FF0000"
       }
     }
   ]

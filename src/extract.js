@@ -40,7 +40,8 @@ function extractRoutes (caltopoJson, folders = extractFolders(caltopoJson)) {
         name: shape.label,
         folder: folders[shape.folderId] !== undefined ? folders[shape.folderId].label : null,
         folderId: shape.folderId !== undefined ? shape.folderId : null,
-        comments: shape.comments
+        comments: shape.comments,
+        color: shape.color
       }
     }));
 }
